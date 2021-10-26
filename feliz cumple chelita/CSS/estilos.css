@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+:root {
+    --fuente: 'Zen Kurenaido', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fuente);
+}
+
+h1 {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    padding: 10px;
+}
+
+.contenedor__reloj {
+    margin: 0 auto;
+    align-items: center;
+    background-color: orangered;
+}
+
+.texto {
+    color: white;
+    padding: 3px 0;
+    text-align: center;
+    font-size: 30px;
+}
